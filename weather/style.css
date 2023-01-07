@@ -1,0 +1,51 @@
+body{
+    text-align: center;
+    color: white;
+}
+#main {
+width: 400px;
+background-color: rgb(67, 143, 230);
+padding: 30px;
+margin: 50px auto;
+border-radius: 25px;
+align-items: center;
+
+
+}
+
+#citySelect{
+    height: 50px;
+    font-size: 24px;
+    padding: 5px 10px;
+    border: 2px solid rgb(132, 185, 247);
+    border-radius: 5px;
+    margin:0px 60px 0px 0;
+}
+#nav{
+ padding: 20px;
+ display: inline-flex;
+}
+
+
+img {
+    width: 150px;
+    object-fit:cover;
+}
+#currentLocationBtn:hover {
+    width: 55px;
+    box-shadow: 5px gray;
+    object-fit:cover;
+}
+p{
+    font-size: 24px;
+    color: white;
+}
+#currentLocationBtn{
+    width: 50px;
+
+}
+
+#location{
+    height: 50px;
+    display: inline-flex;
+}

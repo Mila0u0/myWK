@@ -1,17 +1,31 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<meta charset="utf-8">
-<title></title>
-<link rel="stylesheet" href="">
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="style.css">
+
 </head>
+
 <body>
-<select id="citySelect">
-</select>
-<button id="currentLocationBtn">目前位置</button>
-<br>
-<div id="result"></div>
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-<script src="main.js"></script>
+    <div id="main">
+        <div id="nav">
+            <select id="citySelect"></select>
+            <div id="location"> 
+                <img id="currentLocationBtn" src="location.png" alt="">
+                <p>目前位置</p>
+            </div>
+           
+        </div>
+
+        <!-- <button id="currentLocationBtn">目前位置</button> -->
+        <br>
+        <div id="result"></div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="main.js"></script>
 </body>
+
 </html>

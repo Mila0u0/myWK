@@ -1,0 +1,34 @@
+body {
+    text-align: center;
+    padding: 20px;
+}
+
+#main {
+    padding: 20px;
+    b
+}
+
+h2 {
+    /* 預留歌曲名稱顯示空間*/
+    height: 32px;
+    font-size: 24px;
+}
+
+#playButton {
+    background-color: rgb(240, 134, 96);
+    color: black;
+    padding: 15px 30px;
+    font-size: 24px;
+    border: 0;
+    border-radius: 10px;
+    margin: 20px;
+}
+#playButton:hover {
+    background-color: rgb(231, 141, 176);
+    color: black;
+    padding: 15px 30px;
+    font-size: 24px;
+    border: 0;
+    border-radius: 10px;
+    margin: 20px;
+}

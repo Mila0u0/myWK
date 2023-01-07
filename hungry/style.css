@@ -1,0 +1,92 @@
+body {
+    text-align: center;
+}
+
+canvas {
+    border: 2px solid black;
+    background-image: url(images/floor.jpg);
+}
+
+
+#main {
+    position: relative;
+    width: 800px;
+    height: 800px;
+    background-color: white;
+    border: 2px solid rgb(35, 180, 35);
+    border-radius: 50px;
+    margin: auto;
+}
+#video {
+    position: absolute;
+    width: 900px;
+    height: 810px;
+    top: -5px;
+    left: -50px;
+    background-color: white;
+    border: 2px solid brown;  
+    border-radius: 50px;
+    color: orangered;
+    font-size: 40px;
+    font-weight: 800;
+    padding: 20px;
+    display: none;
+}
+
+#myVideo {
+  width: 700px;
+  /* padding-top: 10%; */
+  margin-bottom: 10px;
+}
+
+.talk{
+    width: 600px;
+    height: 50px;
+    text-align: left;
+    margin: auto;
+    
+}
+
+progress {
+    width: 100px;
+    height: 30px;
+    /* display: inline; */
+    margin-right: 100px;
+}
+#bar {
+    width: 50px;
+    height: 20px;
+    color: brown;
+    font-size: 24px;
+    font-weight: bold;
+    display: inline;
+
+
+}
+
+#talkBox  {
+    width: 350px;
+    height: 20px;
+    color: rgb(35, 180, 35);
+    font-size: 24px;
+    font-weight: bold;
+    display: inline;
+
+}
+
+#close {
+    width: 60px;
+    height: 60px;
+    float: right;
+    margin: 20px;
+    font-size: 36px;
+    color: brown;
+    background-color: rgba(255, 68, 0, 0.103);
+    border: 0px solid orangered;
+    border-radius: 10px;
+}
+#endText {
+    padding-left: 80px;
+}
+
+
